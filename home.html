@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Vanier Menu Order</title>
+<link href="resto.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div id="background">
+  <main>
+    <div class="mainstyle">
+<h2 style="text-align: center;">Vanier Resto Bar Menu</h2>
+<table>
+  <colgroup>    
+    <col style="background-color:rgb(184, 216, 253)">
+    <col style="background-color:rgb(155, 240, 166)">
+    <col style="background-color:rgb(248, 201, 130)">
+  </colgroup>
+  <rowgroup>
+    <row style="background-color: red">
+  </rowgroup>
+  <tr>
+    <th>Menu</th>
+    <th>Price without Meat</th>
+    <th>Price with meat (yes)</th>
+ </tr>
+ <tr>
+    <td>1. Hamburguer</td>                   
+    <td>$5.5</td>
+    <td>$8.5</td>
+  </tr>
+  <tr>
+     <td>2. Pizza</td>
+    <td>$5.5</td>
+    <td>$8.5</td>
+  </tr>
+  <tr> 
+    <td>3. Fish and Chips</td>                    
+    <td>$5.5</td>
+    <td>$8.5</td>
+  </tr>
+  <tr> 
+    <td>4. Salad</td>                    
+    <td>$5.5</td>
+    <td>$8.5</td>
+  </tr>
+  <tr> 
+    <td>5. Sandwich</td>                    
+    <td>$5.5</td>
+    <td>$8.5</td>
+  </tr>
+</table>
+<br>
+<fieldset>
+  <legend>Order now:</legend>
+  <div class="radios">                                                 
+  <input type="radio" id="radio1" name="Resto" value="Hamburguer"> 1. Hamburguer<br>
+  <input type="radio" id="radio2" name="Resto" value="Pizza"> 2. Pizza<br>     
+  <input type="radio" id="radio3" name="Resto" value="Fish and Chips"> 3. Fish and Chips<br> 
+  <input type="radio" id="radio4" name="Resto" value="Salad"> 4. Salad<br>   
+  <input type="radio" id="radio5" name="Resto" value="Sandwich"> 5. Sandwich    
+  </div>
+  </fieldset>
+<br>
+<div style="text-align:center">
+  <input type="checkbox" id="meat" name="meat"
+         checked>
+  <label for="meat">Price with meat ($3 dollars plus)</label>
+</div>
+<br>
+<div style="text-align:center">
+<button id="button" type="button" name="calculate" onclick="calculate()">Calculate</button>
+<button id="button" type="button" name="submit" onclick="final()">Submit</button>
+</div>
+<br>
+<br>
+<div style="text-align:center">
+<label>Total Price:</label> <input id="price" type="text" name="Price" >
+</div>
+</div>
+</main>
+  <script src="calculate.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,172 @@
+
+* {
+  box-sizing: border-box;
+}
+
+table{
+  margin: 0 auto;
+  width: 490px;
+  font-size: 110%;
+  
+}
+th, td {
+  text-align: center;
+}
+td:nth-child(1) {
+  text-align: left;
+  padding-left: 1%;
+}
+col {
+  display: table-column;
+}
+fieldset{
+  width: 250px;
+  margin: 0 auto;
+    font-size: 120%;
+}
+main{
+  margin: 0 auto;
+  width: 80%;  
+  
+}
+.mainstyle {
+  padding-top: 5%;
+  padding-bottom: 10%;  
+}
+#background{
+  background-image: url("R.png");  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 120%;
+  margin: 0 auto;  
+}
+#background2{
+  background-image: url("R.png");  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 120%;
+  margin: 0 auto;  
+}
+body{
+  background-color:black; 
+  background-image: url("m.jpg");
+  background-size: 25% 25%;
+}
+input{
+  font-size: 110%;
+}
+label{
+  font-size: 120%;
+}
+button{
+  font-size: 120%;
+}
+#paragraph{
+  font-size: 2em;
+  text-align: center;
+  padding-top: 10%;
+}
+#paragraph2{
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 10%;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+a:link { 
+  color: rgb(245, 248, 245); 
+}
+a:visited { 
+  color: rgb(128, 128, 128); 
+}
+a:hover { 
+  color: #5a5ad3; 
+}
+a:focus  {
+  color:#eb8e8e;
+}
+a:active  {
+  color:#a0e75d;
+}
+  /* Extra small devices (phones, 499px and down) */
+  @media only screen and (max-width: 499px){
+    table{
+      margin: 0 auto;
+      width: 95%;
+      font-size: 70%;      
+    }
+    h2{
+      font-size: 130%;
+    }
+    fieldset{
+      width: 190px;
+      margin: 0 auto;
+      font-size: 100%;
+    }
+    .mainstyle {
+      padding-top: 25%;
+      padding-bottom: 30%;  
+    }
+    input{
+      font-size: 70%;
+    }
+    label{
+      font-size: 110%;
+    }
+    button{
+      font-size: 80%;
+    }
+    #paragraph{
+      font-size: 90%;
+      text-align: center;
+      padding-top: 10%;
+    }
+    #paragraph2{
+      font-size: 120%;
+      text-align: center;
+      padding-bottom: 10%;
+      font-weight: bold;
+    }
+  }
+  /* Small devices (portrait tablets and large phones, 500px and up) */
+  @media only screen and (min-width: 500px) and (max-width: 767px) {
+    table{
+      margin: 0 auto;
+      width: 80%;
+      font-size: 70%;      
+    }
+    h2{
+      font-size: 130%;
+    }
+    fieldset{
+      width: 190px;
+      margin: 0 auto;
+      font-size: 100%;
+    }
+    .mainstyle {
+      padding-top: 25%;
+      padding-bottom: 30%;  
+    }
+    input{
+      font-size: 70%;
+    }
+    label{
+      font-size: 110%;
+    }
+    button{
+      font-size: 80%;
+    }
+    #paragraph{
+      font-size: 150%;
+      text-align: center;
+      padding-top: 10%;
+    }
+    #paragraph2{
+      font-size: 150%;
+      text-align: center;
+      padding-bottom: 10%;
+      font-weight: bold;
+    }
+  }
